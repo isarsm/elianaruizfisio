@@ -18,13 +18,13 @@ const services = [
   },
   {
     icon: HeartPulse,
-    title: "Fisioterapia Respiratória",
-    description: "Técnicas para melhorar a capacidade pulmonar e qualidade da respiração.",
+    title: "RPG - Método Souchard",
+    description: "Reeducação Postural Global para correção de desvios posturais e alívio de dores crônicas.",
   },
   {
     icon: Users,
-    title: "Orientação Familiar",
-    description: "Instruções para familiares e cuidadores sobre exercícios e cuidados diários.",
+    title: "Pilates Clínico",
+    description: "Exercícios adaptados para fortalecimento do core, flexibilidade e melhora da postura.",
   },
   {
     icon: Stethoscope,
