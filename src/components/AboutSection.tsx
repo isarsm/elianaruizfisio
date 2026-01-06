@@ -28,11 +28,12 @@ const AboutSection = () => {
                 Sobre Mim
               </span>
               <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mt-2">
-                Dra. [Seu Nome]
+                Dra. Eliana Ruiz S Miguel
               </h2>
+              <p className="text-muted-foreground text-sm mt-1">CREFITO</p>
               <p className="text-lg text-muted-foreground mt-4 leading-relaxed">
-                Sou fisioterapeuta apaixonada pelo cuidado com idosos, dedicando minha carreira 
-                a proporcionar qualidade de vida e bem-estar para a terceira idade.
+                Sou fisioterapeuta apaixonada pelo cuidado com idosos, dedicando mais de 40 anos 
+                da minha carreira a proporcionar qualidade de vida e bem-estar para a terceira idade.
               </p>
             </div>
 
@@ -45,8 +46,8 @@ const AboutSection = () => {
                 <div>
                   <h3 className="font-semibold text-foreground">Formação Acadêmica</h3>
                   <ul className="text-muted-foreground text-sm mt-1 space-y-1">
-                    <li>• Graduação em Fisioterapia - [Universidade]</li>
-                    <li>• [Adicione sua formação]</li>
+                    <li>• Graduação em Fisioterapia pela Universidade de São Paulo (USP)</li>
+                    <li>• 40+ anos de experiência profissional</li>
                   </ul>
                 </div>
               </div>
@@ -61,7 +62,6 @@ const AboutSection = () => {
                     <li>• Especialização em Fisioterapia Geriátrica</li>
                     <li>• RPG - Reeducação Postural Global (Método Souchard)</li>
                     <li>• Pilates Clínico</li>
-                    <li>• [Adicione suas especializações]</li>
                   </ul>
                 </div>
               </div>
