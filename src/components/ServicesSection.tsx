@@ -1,4 +1,4 @@
-import { Activity, Home, Brain, Users, Stethoscope, HeartPulse } from "lucide-react";
+import { Activity, Home, Brain, Users, Stethoscope, HeartPulse, HandHeart } from "lucide-react";
 
 const services = [
   {
@@ -30,6 +30,11 @@ const services = [
     icon: Stethoscope,
     title: "Avaliação Geriátrica",
     description: "Análise completa das necessidades físicas e funcionais do idoso.",
+  },
+  {
+    icon: HandHeart,
+    title: "Orientação para Familiares e Cuidadores",
+    description: "Instruções e treinamento para familiares e cuidadores sobre exercícios e cuidados diários.",
   },
 ];
 

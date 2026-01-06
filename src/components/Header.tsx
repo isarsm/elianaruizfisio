@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
+  { href: "#sobre", label: "Sobre" },
   { href: "#servicos", label: "Serviços" },
   { href: "#depoimentos", label: "Depoimentos" },
   { href: "#contato", label: "Contato" },
@@ -32,7 +33,7 @@ const Header = () => {
         <nav className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="font-display text-xl md:text-2xl font-semibold text-foreground">
-            Dra. <span className="text-primary">Fisioterapeuta</span>
+            Dra. <span className="text-primary">Eliana Ruiz</span>
           </a>
 
           {/* Desktop Navigation */}

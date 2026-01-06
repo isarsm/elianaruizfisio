@@ -5,31 +5,25 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Telefone",
-    value: "(11) 99999-9999",
-    href: "tel:+5511999999999",
+    value: "+55 11 99905-5975",
+    href: "tel:+5511999055975",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "(11) 99999-9999",
-    href: "https://wa.me/5511999999999",
-  },
-  {
-    icon: Mail,
-    label: "E-mail",
-    value: "contato@fisioterapia.com",
-    href: "mailto:contato@fisioterapia.com",
+    value: "+55 11 99905-5975",
+    href: "https://wa.me/5511999055975",
   },
   {
     icon: MapPin,
     label: "Área de Atendimento",
-    value: "São Paulo - SP e região",
+    value: "São Paulo, SP",
     href: null,
   },
   {
     icon: Clock,
     label: "Horário de Atendimento",
-    value: "Seg a Sex: 8h às 18h",
+    value: "Seg a Sex: 9h às 17h",
     href: null,
   },
 ];
@@ -102,7 +96,7 @@ const ContactSection = () => {
                 className="w-full bg-card text-foreground hover:bg-card/90"
                 asChild
               >
-                <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5511999055975" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="w-5 h-5" />
                   Chamar no WhatsApp
                 </a>
@@ -113,7 +107,7 @@ const ContactSection = () => {
                 className="w-full border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
                 asChild
               >
-                <a href="tel:+5511999999999">
+                <a href="tel:+5511999055975">
                   <Phone className="w-5 h-5" />
                   Ligar agora
                 </a>
