@@ -30,7 +30,7 @@ const AboutSection = () => {
               <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mt-2">
                 Dra. Eliana Ruiz S Miguel
               </h2>
-              <p className="text-muted-foreground text-sm mt-1">CREFITO</p>
+              <p className="text-muted-foreground text-sm mt-1">CREFITO nº 6893</p>
               <p className="text-lg text-muted-foreground mt-4 leading-relaxed">
                 Sou fisioterapeuta apaixonada pelo cuidado com idosos, dedicando mais de 40 anos 
                 da minha carreira a proporcionar qualidade de vida e bem-estar para a terceira idade.
