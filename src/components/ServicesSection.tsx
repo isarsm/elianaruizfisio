@@ -1,11 +1,6 @@
-import { Activity, Home, Brain, Users, Stethoscope, HeartPulse, HandHeart } from "lucide-react";
+import { Activity, Home, Brain, Stethoscope, HeartPulse, HandHeart } from "lucide-react";
 
 const services = [
-  {
-    icon: Home,
-    title: "Atendimento Domiciliar",
-    description: "Tratamento no conforto do lar, sem necessidade de deslocamento, respeitando a rotina do paciente.",
-  },
   {
     icon: Activity,
     title: "Reabilitação Motora",
@@ -18,13 +13,8 @@ const services = [
   },
   {
     icon: HeartPulse,
-    title: "RPG - Método Souchard",
-    description: "Reeducação Postural Global para correção de desvios posturais e alívio de dores crônicas.",
-  },
-  {
-    icon: Users,
-    title: "Pilates Clínico",
-    description: "Exercícios adaptados para fortalecimento do core, flexibilidade e melhora da postura.",
+    title: "Técnicas Posturais",
+    description: "RPG (Método Souchard) e Pilates Clínico para correção postural, fortalecimento e alívio de dores.",
   },
   {
     icon: Stethoscope,
@@ -33,8 +23,13 @@ const services = [
   },
   {
     icon: HandHeart,
-    title: "Orientação para Familiares e Cuidadores",
+    title: "Orientação para Familiares",
     description: "Instruções e treinamento para familiares e cuidadores sobre exercícios e cuidados diários.",
+  },
+  {
+    icon: Activity,
+    title: "Fisioterapia Neurológica",
+    description: "Tratamento especializado para pacientes com AVC, Parkinson, Alzheimer e outras condições neurológicas.",
   },
 ];
 
@@ -50,10 +45,18 @@ const ServicesSection = () => {
           <h2 className="font-display text-3xl md:text-4xl font-semibold text-foreground mt-3 mb-4">
             Cuidado completo para cada necessidade
           </h2>
-          <p className="text-muted-foreground text-lg">
+          <p className="text-muted-foreground text-lg mb-6">
             Oferecemos uma gama de serviços especializados em fisioterapia geriátrica, 
             sempre com foco no bem-estar e qualidade de vida.
           </p>
+          
+          {/* Destaque Atendimento Domiciliar */}
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
+            <Home className="w-5 h-5 text-primary" />
+            <span className="text-primary font-medium">
+              Todos os atendimentos são realizados no conforto do seu lar
+            </span>
+          </div>
         </div>
 
         {/* Services Grid */}
