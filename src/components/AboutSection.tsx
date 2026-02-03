@@ -1,4 +1,5 @@
-import { GraduationCap, Award, Heart } from "lucide-react";
+import { GraduationCap, Award } from "lucide-react";
+import elianaFoto from "@/assets/eliana-foto.jpg";
 
 const AboutSection = () => {
   return (
@@ -8,14 +9,11 @@ const AboutSection = () => {
           {/* Photo */}
           <div className="relative animate-fade-in">
             <div className="aspect-[3/4] max-w-md mx-auto rounded-2xl overflow-hidden shadow-elegant bg-muted">
-              <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                <div className="text-center p-8">
-                  <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-primary/20 flex items-center justify-center">
-                    <Heart className="w-16 h-16 text-primary" />
-                  </div>
-                  <p className="text-sm">Sua foto aqui</p>
-                </div>
-              </div>
+              <img 
+                src={elianaFoto} 
+                alt="Dra. Eliana Ruiz S Miguel" 
+                className="w-full h-full object-cover object-top"
+              />
             </div>
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl" />
             <div className="absolute -top-4 -left-4 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
