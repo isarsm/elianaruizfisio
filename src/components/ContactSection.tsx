@@ -4,13 +4,7 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 const contactInfo = [
   {
     icon: Phone,
-    label: "Telefone",
-    value: "+55 11 99905-5975",
-    href: "tel:+5511999055975",
-  },
-  {
-    icon: MessageCircle,
-    label: "WhatsApp",
+    label: "Telefone e WhatsApp",
     value: "+55 11 99905-5975",
     href: "https://wa.me/5511999055975",
   },
