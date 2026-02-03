@@ -1,4 +1,4 @@
-import { Activity, Home, Brain, Stethoscope, HeartPulse, HandHeart } from "lucide-react";
+import { Activity, Home, Brain, Users, Stethoscope, HeartPulse, HandHeart } from "lucide-react";
 
 const services = [
   {
@@ -13,8 +13,13 @@ const services = [
   },
   {
     icon: HeartPulse,
-    title: "Técnicas Posturais",
-    description: "RPG (Método Souchard) e Pilates Clínico para correção postural, fortalecimento e alívio de dores.",
+    title: "RPG - Método Souchard",
+    description: "Reeducação Postural Global para correção de desvios posturais e alívio de dores crônicas.",
+  },
+  {
+    icon: Users,
+    title: "Pilates Clínico",
+    description: "Exercícios adaptados para fortalecimento do core, flexibilidade e melhora da postura.",
   },
   {
     icon: Stethoscope,
@@ -25,11 +30,6 @@ const services = [
     icon: HandHeart,
     title: "Orientação para Familiares",
     description: "Instruções e treinamento para familiares e cuidadores sobre exercícios e cuidados diários.",
-  },
-  {
-    icon: Activity,
-    title: "Fisioterapia Neurológica",
-    description: "Tratamento especializado para pacientes com AVC, Parkinson, Alzheimer e outras condições neurológicas.",
   },
 ];
 
