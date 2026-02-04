@@ -34,7 +34,15 @@ const Header = () => {
         <nav className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3">
-            <img src={logo} alt="Eliana Ruiz Miguel" className="h-14 md:h-16 w-auto" />
+            <img src={logo} alt="Eliana Ruiz Miguel" className="h-16 md:h-20 w-auto" />
+            <div className="flex flex-col">
+              <span className="font-heading font-semibold text-foreground text-base md:text-lg leading-tight">
+                Eliana Ruiz Miguel
+              </span>
+              <span className="text-muted-foreground text-xs md:text-sm">
+                Fisioterapeuta para Idosos
+              </span>
+            </div>
           </a>
 
           {/* Desktop Navigation */}
