@@ -1,26 +1,28 @@
 import { GraduationCap, Award } from "lucide-react";
-import elianaFoto from "@/assets/eliana-foto.jpg";
+// import elianaFoto from "@/assets/eliana-foto.jpg"; // Temporariamente oculto
 
 const AboutSection = () => {
   return (
     <section id="sobre" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Photo */}
+        <div className="max-w-3xl mx-auto">
+          {/* Photo - Temporariamente oculto, aguardando nova foto */}
+          {/*
           <div className="relative animate-fade-in">
             <div className="aspect-[3/4] max-w-md mx-auto rounded-2xl overflow-hidden shadow-elegant bg-muted">
               <img 
                 src={elianaFoto} 
-                alt="Dra. Eliana Ruiz S Miguel" 
+                alt="Dra. Eliana Ruiz Miguel" 
                 className="w-full h-full object-cover object-top"
               />
             </div>
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl" />
             <div className="absolute -top-4 -left-4 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
           </div>
+          */}
 
           {/* Content */}
-          <div className="space-y-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+          <div className="space-y-6 animate-fade-in text-center md:text-left">
             <div>
               <span className="text-primary font-medium text-sm uppercase tracking-wider">
                 Sobre Mim
