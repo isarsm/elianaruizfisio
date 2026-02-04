@@ -26,7 +26,7 @@ const AboutSection = () => {
                 Sobre Mim
               </span>
               <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mt-2">
-                Dra. Eliana Ruiz S Miguel
+                Dra. Eliana Ruiz Miguel
               </h2>
               <p className="text-muted-foreground text-sm mt-1">CREFITO nº 6893</p>
               <p className="text-lg text-muted-foreground mt-4 leading-relaxed">

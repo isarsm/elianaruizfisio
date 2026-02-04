@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { href: "#sobre", label: "Sobre" },
@@ -32,8 +33,8 @@ const Header = () => {
       <div className="container mx-auto px-6 lg:px-8">
         <nav className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="#" className="font-display text-xl md:text-2xl font-semibold text-foreground">
-            Dra. <span className="text-primary">Eliana Ruiz</span>
+          <a href="#" className="flex items-center gap-3">
+            <img src={logo} alt="Eliana Ruiz Miguel" className="h-12 w-auto" />
           </a>
 
           {/* Desktop Navigation */}
