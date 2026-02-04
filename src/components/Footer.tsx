@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-display text-lg">
-            Dra. <span className="text-accent">Eliana Ruiz S Miguel</span>
+            Dra. <span className="text-accent">Eliana Ruiz Miguel</span>
           </p>
           <p className="text-primary-foreground/70 text-sm flex items-center gap-2">
             © {currentYear} Todos os direitos reservados. Feito com{" "}
