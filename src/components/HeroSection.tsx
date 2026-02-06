@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-image.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-soft">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-soft pt-20 lg:pt-0">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-primary/5 blur-3xl" />
@@ -15,9 +15,9 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-8 opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-light text-primary font-medium text-sm">
-              <Heart className="w-4 h-4" />
-              <span>Cuidado especializado para idosos</span>
+            <div className="flex items-center flex-wrap gap-2 px-3 sm:px-4 py-2 rounded-full bg-primary-light text-primary font-medium text-xs sm:text-sm w-fit">
+              <Heart className="w-3.5 h-3.5 sm:w-4 sm:h-4 flex-shrink-0" />
+              <span className="leading-tight break-words">Cuidado especializado para idosos</span>
             </div>
 
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground leading-tight">
