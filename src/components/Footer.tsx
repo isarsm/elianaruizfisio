@@ -11,8 +11,7 @@ const Footer = () => {
             Dra. <span className="text-accent">Eliana Ruiz Miguel</span>
           </p>
           <p className="text-primary-foreground/70 text-sm flex items-center gap-2">
-            © {currentYear} Todos os direitos reservados. Feito com{" "}
-            <Heart className="w-4 h-4 fill-accent text-accent" />
+            © {currentYear} Todos os direitos reservados.
           </p>
         </div>
       </div>

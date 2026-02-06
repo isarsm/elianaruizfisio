@@ -87,7 +87,7 @@ const ContactSection = () => {
               <Button
                 variant="secondary"
                 size="xl"
-                className="w-full bg-card text-foreground hover:bg-card/90"
+                className="w-full bg-card text-foreground hover:bg-card/70"
                 asChild
               >
                 <a href="https://wa.me/5511999055975" target="_blank" rel="noopener noreferrer">
@@ -98,12 +98,12 @@ const ContactSection = () => {
               <Button
                 variant="outline"
                 size="xl"
-                className="w-full border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
+                className="w-full bg-card text-foreground hover:bg-card/70"
                 asChild
               >
-                <a href="tel:+5511999055975">
-                  <Phone className="w-5 h-5" />
-                  Ligar agora
+                <a href="mailto:elianarsmiguel@gmail.com">
+                  <Mail className="w-5 h-5" />
+                  Enviar e-mail
                 </a>
               </Button>
             </div>
