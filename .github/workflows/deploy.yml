@@ -36,8 +36,13 @@ jobs:
       - name: Determine base path
         id: base_path
         run: |
-          if [[ "${{ github.repository }}" == *".github.io" ]]; then
+          # Check if CNAME exists (custom domain) - if so, use root path
+          if [ -f "public/CNAME" ] || [ -f "CNAME" ]; then
             echo "base=/" >> $GITHUB_OUTPUT
+          # Check if repository name ends with .github.io (user/organization page)
+          elif [[ "${{ github.repository }}" == *".github.io" ]]; then
+            echo "base=/" >> $GITHUB_OUTPUT
+          # Otherwise, it's a project page - use repository name as base path
           else
             REPO_NAME=$(echo "${{ github.repository }}" | cut -d'/' -f2)
             echo "base=/$REPO_NAME/" >> $GITHUB_OUTPUT
