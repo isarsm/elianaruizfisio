@@ -76,11 +76,11 @@ const ContactSection = () => {
             style={{ animationDelay: "0.4s" }}
           >
             <h3 className="font-display text-2xl md:text-3xl font-semibold mb-4">
-              Agende sua avaliação gratuita
+              Agende sua avaliação
             </h3>
             <p className="text-primary-foreground/90 mb-8 leading-relaxed">
               A primeira consulta é para conhecer suas necessidades e elaborar 
-              um plano de tratamento personalizado. Sem compromisso.
+              um plano de tratamento personalizado.
             </p>
 
             <div className="space-y-4">
